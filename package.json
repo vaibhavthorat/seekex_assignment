@@ -2,9 +2,9 @@
   "name": "seekex_assignment",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vaibhavthorat.github.io/seekex_assignment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
-	  "homepage": "https://vaibhavthorat.github.io/seekex_assignment",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.5.0",

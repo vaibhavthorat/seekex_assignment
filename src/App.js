@@ -16,6 +16,7 @@ function App() {
         <Route exact path='productdetails' element={<ProductDetails></ProductDetails>}></Route>
         <Route exact path='/' element={<Main></Main>}></Route>
         <Route exact path='/home' element={<Main></Main>}></Route>
+        <Route exact path='/seekex_assignment' element={<Main></Main>}></Route>
         <Route exact path="/productdetails/:id" element={<ProductDetails></ProductDetails>}></Route>
         <Route exact path='*' element={<PageNotFound></PageNotFound>}></Route>
       </Routes>
