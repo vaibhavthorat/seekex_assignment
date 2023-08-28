@@ -1,0 +1,163 @@
+.container{
+    height:48px;
+    margin-bottom: 40px;
+}
+.container h1{
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1C1C1C;
+}
+.card{
+    width: 264px;
+    margin: 30px 10px;
+    position: relative;
+}
+
+.data{
+    width: 264px;
+    height: 412px;
+    overflow: hidden;
+
+}
+.card img{
+    width: 264px;
+    margin-bottom: -20px;
+}
+.card h5{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+padding: 0px 50px 0px 55px;
+text-align: center;
+}
+.card button{
+    border:1px solid #E6E6E6;
+    height: 36px;
+    padding: 2px 8px;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+span{
+    font-weight: 800;
+}
+p{
+    margin: -20px 10px 10px 0px;
+    text-align: center;
+}
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px; 
+    margin-left: 100px;
+}
+.viewallbutton{
+    margin-bottom: 50px;
+}
+.viewallbutton button{
+    position: relative;
+    left: calc(50% - 40px);
+    padding: 10px 30px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background: #770015;
+    cursor: pointer;
+}
+.viewallbutton button:hover{
+    background: #de788a;
+}
+
+
+.data button {
+    width: 33%;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: #1369ce;
+    position: relative;
+    bottom: -20px;
+    left: 0px;
+    margin: 0px;
+    transition: all 0.5s ease 0s;
+    
+  }
+  
+  .data:hover button{
+    bottom: 200px;
+  }
+
+.card img{
+    transition: all ease 1s;
+}
+.card img:hover{
+    scale: 1.2;
+    filter: blur(5px);
+    cursor: pointer;
+}
+/* @media screen and (max-width:1240px){
+
+    .container{
+     width: 100%;
+    }
+    .card{
+        width: 200px;
+        margin: 10px 10px;  
+    }
+    .data{
+        width: 200px;
+        height: 300px;
+           
+    }
+    .card img{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .card h5{
+        padding: 0px 10px 0px 10px;
+    }
+    .card button{
+        font-size: 8px;
+        height: 30px;
+        margin: 0px;
+    }
+    .cardcontainer{
+        margin-right: 50px; 
+        margin-left: 50px;
+    }
+    .data button {
+        width: 33%;
+        bottom: 0px;
+        left: 0px;
+        margin: 0px;
+        transition: all 0.5s ease 0s;
+        
+      }
+      
+      .data:hover button{
+        bottom: 180px;
+      }
+} */
+
+/* @media screen and (max-width:980px){
+    .card{
+        width: 300px;
+    }
+    .data{
+        width: 300px;
+        height: 460px;   
+    }
+    .card img{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+} */

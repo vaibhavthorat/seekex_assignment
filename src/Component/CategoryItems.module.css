@@ -1,0 +1,39 @@
+.container{
+   display: flex;
+   justify-content: space-evenly;
+   top: 836px;
+   left: 123px;
+    padding: 100px 100px 50px 100px;  
+}
+.container h4{
+    text-align: center;
+}
+.container img{
+    transition: all ease 1s;
+}
+.container img:hover{
+    scale: 1.2;
+}
+
+@media screen and (max-width:1240px){
+    .container{
+        justify-content: space-between;
+         padding: 60px 50px 50px 50px;  
+     }
+     .container img{
+        width: 100%;
+     }
+}
+@media screen and (max-width:980px){
+    .container{
+        flex-wrap: wrap; 
+        width: 85%;
+        margin: 0px 0px 50px -20px;
+     }
+}
+@media screen and (max-width:520px){
+    .container img{
+        width: 100%;
+     }
+ 
+}

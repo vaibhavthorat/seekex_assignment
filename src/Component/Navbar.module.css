@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    background: #1F1F1F;
+    color: white;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 88px;
+    top: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 21px 0px #00000029; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar h4{
+font-family: Playfair Display;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #1C1C1C;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+   padding-right: 20px;
+}
+@media screen and (max-width:520px){
+    .navbar{
+        height: 80px;
+    }
+    .navbar ul li{
+        padding-right: 0px;
+     }
+}

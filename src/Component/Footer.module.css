@@ -1,0 +1,124 @@
+.subscription{
+height: 312px;
+background: linear-gradient(97.3deg, #AB001E -6.23%, #770015 105.09%);
+margin: 50px 100px 50px 100px;
+}
+.subscription h1{
+    font-family: Playfair Display;
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+padding: 50px 250px;
+margin-bottom: -20px;
+}
+.subscription input{
+    width: 645px;
+    height: 68px;
+    margin-left: 200px;
+    background-color: #f68196;
+    color: #FFFFFF;
+    border: 0;
+    caret-color: #FFFFFF;
+    padding-left: 20px;
+}
+.subscription input:focus{
+   border: none;
+   outline: none;
+}
+input::placeholder{
+    color: white;
+}
+.subscription button{
+    width: 142.5px;
+    height: 68px;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 600;
+    color: #770015;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin:50px 100px 50px 100px;
+}
+.container p{
+    width: 300px;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+.container li{
+    list-style: none;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+position: relative;
+left: -40px;
+top: -40px;
+
+}
+.container h2{
+font-family: Playfair Display;
+font-size: 15px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+position: relative;
+top: -30px;
+color: #770015;
+}
+.container img{
+    margin-right: 5px;
+}
+@media screen and (max-width:980px){
+    .subscription{
+        height: 180px;
+        margin: 50px;
+        }
+        .subscription h1{
+        font-size: 25px;
+        line-height: 30px;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+        }
+        .subscription input{
+            width: 300px;
+            height: 30px;
+            margin-left: 50px;
+            padding-left: 20px;
+        }
+        .subscription button{
+            width: 142.5px;
+            height: 30px;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        .container{
+            margin:50px;
+            flex-wrap: wrap;
+        }
+}
+@media screen and (max-width:980px){
+    .subscription input{
+        width: 150px;
+        height: 30px;
+    }
+    .subscription button{
+        margin-left: 65px;
+    }
+}
