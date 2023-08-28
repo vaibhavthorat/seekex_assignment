@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seekex_assignment/static/css/main.f1c7a970.css",
-    "main.js": "/seekex_assignment/static/js/main.c6bf90ef.js",
+    "main.css": "/seekex_assignment/static/css/main.f0f36e66.css",
+    "main.js": "/seekex_assignment/static/js/main.f727e8b7.js",
     "static/js/787.4e3445f0.chunk.js": "/seekex_assignment/static/js/787.4e3445f0.chunk.js",
     "static/media/banner1.png": "/seekex_assignment/static/media/banner1.60a9f3263be900cf92fa.png",
     "static/media/banner1 2.png": "/seekex_assignment/static/media/banner1 2.38adc28f271a6cdfe67d.png",
@@ -29,12 +29,12 @@
     "static/media/Group 249.png": "/seekex_assignment/static/media/Group 249.feba22009188fd954c94.png",
     "static/media/image 6.png": "/seekex_assignment/static/media/image 6.119c03a0903501df5df2.png",
     "index.html": "/seekex_assignment/index.html",
-    "main.f1c7a970.css.map": "/seekex_assignment/static/css/main.f1c7a970.css.map",
-    "main.c6bf90ef.js.map": "/seekex_assignment/static/js/main.c6bf90ef.js.map",
+    "main.f0f36e66.css.map": "/seekex_assignment/static/css/main.f0f36e66.css.map",
+    "main.f727e8b7.js.map": "/seekex_assignment/static/js/main.f727e8b7.js.map",
     "787.4e3445f0.chunk.js.map": "/seekex_assignment/static/js/787.4e3445f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1c7a970.css",
-    "static/js/main.c6bf90ef.js"
+    "static/css/main.f0f36e66.css",
+    "static/js/main.f727e8b7.js"
   ]
 }
